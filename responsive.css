@@ -1,0 +1,192 @@
+
+/* PC */
+@media ( min-width: 64em){
+    
+}
+
+
+/* TABLET */
+@media (max-width: 63.9375em) and (min-width: 46.3125em){
+    .place-list .place .buy{
+        padding: 13px 16px;
+    }
+    .Three {
+        padding:10px;
+    }
+
+    .Five{
+        padding:12px 20px;
+    }
+    .list_contacts{
+        top: 17%;
+    }
+}
+
+
+/* TABLET- MOBILE*/
+@media (max-width: 63.9375em){
+    .logo{
+        font-size: 50px;
+    }
+
+    .left{
+        line-height: 1.8;
+    }
+    .footer-end a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .navigation_munual{
+        display: none;
+    }
+    .navigation_auto{
+        display: none;
+    }
+    .map{
+        height: 300px;
+    }
+    .work {
+        flex-direction: column;
+    }
+    
+    .boxx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    }
+    .work h2 {
+        width: 36%;
+    }
+    .slider {
+        padding-left: 0;
+    }
+    .slider h1 {
+        margin-right: 0;
+        margin-top: 150px;
+    }
+}
+
+
+
+/* MOBILE */
+@media ( max-width: 46.1875em) {
+    .nav> li {
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    .search{
+        display: none;
+    }
+    
+    .menu{
+        text-decoration: none;
+        color:white;       
+        float: right;
+        padding: 0 24px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 46px;
+        display:block;
+    }
+    
+    .menu:hover{
+        background-color: #ccc;
+        color: black;
+    }
+    #header .nav> li:first-child{
+        display: inline-block;
+    }
+
+    .nav .subnav{
+        position: initial;
+    } 
+    
+    .nav li:hover .subnav{
+        background-color: #333;
+        color:#fff;
+    }
+    .nav .subnav a{
+        color :white;
+        padding: 14px 40px;
+    }
+    
+    .slider-about{
+        display: none;
+    }
+    #content .avatar{
+        margin-bottom: 15px;
+        width: 60%;
+    }
+    .member-list .member{
+        width:100%;
+    }
+    #content .name{
+        margin-top:15px;
+    }
+    .place-list .place{
+        width:100%;
+    }
+
+    .place-list .place .buy{
+        padding:12px;
+    }
+    
+    .eyy{
+        width:100%;
+        margin-top: 8px;
+    }
+    .six{
+        width:100%;
+    }
+    .Five{
+        width:100%;
+    }
+    .picture {
+        flex-direction: column;
+    }
+    .picture .imgMap img {
+        width: 120%;
+        margin-bottom: 30px;
+    }
+    .location {
+        margin-bottom: 12px;
+    }
+    .phone {
+        margin-bottom: 12px;
+    }
+    .ptrText img {
+        width: 20px;
+    }
+    .ptrText {
+        margin-left: 92px;
+    }
+    .slider h1 {
+        margin-top: 40px;
+        font-size: 24px;
+    }
+    .work h2 {
+        width: 78%;
+    }
+    .list_contacts li a .face {
+        display: none;
+    }
+    .list_contacts li a .instagram{
+        display: none;
+    }
+    .list_contacts li a .twitter {
+        display: none;
+    }
+    .list_contacts {
+        width: 300px;
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        position: relative;
+        margin-left: 40px;
+    }
+}

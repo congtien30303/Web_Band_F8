@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thuchanh WebBand</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div class="main">
+        <div id="header">
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">More <ion-icon name="caret-down-outline"></ion-icon></a>
+                    
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#" class="search"><ion-icon name="search-outline"></ion-icon></a>
+            <div id="menu" class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+
+        </div>
+        
+        <section class="slider" id="slider">
+            
+            <div class="slides">
+                <input type="radio" name="radio_btn" id="radio1">
+                <input type="radio" name="radio_btn" id="radio2">
+                <input type="radio" name="radio_btn" id="radio3">
+                <input type="radio" name="radio_btn" id="radio4">
+    
+                <div class="slide first">
+                    <img src="./img/img1.jpeg" alt="slide1">
+                </div>
+                <div class="slide">
+                    <img src="./img/img2.jpeg" alt="slide2">
+                </div>
+                <div class="slide">
+                    <img src="./img/img3.jpeg" alt="slide3">
+                </div>
+                <div class="slide">
+                    <img src="./img/img4.jpeg" alt="slide4">
+                </div>
+                <div class="navigation_auto">
+                    <div class="auto_btn1"></div>
+                    <div class="auto_btn2"></div>
+                    <div class="auto_btn3"></div>
+                    <div class="auto_btn4"></div>
+                </div>
+            </div> 
+            <div class="navigation_munual">
+                <label for="radio1" class="munual_btn"></label>
+                <label for="radio2" class="munual_btn"></label>
+                <label for="radio3" class="munual_btn"></label>
+                <label for="radio4" class="munual_btn"></label>
+            </div> 
+            <h1> Wellcome to CT9 Web </h1> 
+        </section>
+
+        <div id="content">
+                <!-- THE BAND -->
+            <section class="full-content" id="band">
+                <h3 class="heading">THE BAND</h3>
+                <p class="sub-heading">We love music</p>
+                <p class="about">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="work">
+                    <div class="boxx">
+                        <h2>Job One</h2>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="./img/img5.jpeg" alt="Project">
+                            </div>
+                            <div class="textBx">
+                                <h3>Project_01 </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxx">
+                        <h2>Job Two</h2>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="./img/img6.jpeg" alt="Project">
+                            </div>
+                            <div class="textBx">
+                                <h3>Project_02 </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxx">
+                        <h2>Job Three</h2>
+                        <div class="workBx">
+                            <div class="imgBx">
+                                <img src="./img/img7.jpeg" alt="Project">
+                            </div>
+                            <div class="textBx">
+                                <h3>Project_03 </h3>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+                <!-- TOUR DATES -->
+            <section class="tourday" id="tour">
+                    <div class="full-content">
+                        <h3 class="heading tour">TOUR DATES</h3>
+                        <p class="sub-heading ">Remember to book your tickets!</p>
+                        <ul class="ticket-list" >
+                            <li>September <SPan class="One">Sold out</SPan></li>
+                            <li>October <SPan  class="One">Sold out</SPan></li>
+                            <li>November <SPan  class="Two">9</SPan></li>
+                        </ul>
+                        <div class="place-list">
+                            <div class="place">
+                                <img src="./img/newyork.jpg" alt="" class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">New York</h3>
+                                    <p class="time">Fri 27 Nov 2016</p>
+                                    <p class="place-about">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="buy js__buy">Buy Tickets</button>
+                                </div> 
+                            </div>
+
+                            <div class="place">
+                                <img src="./img/paris.jpg" alt="" class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">Paris</h3>
+                                    <p class="time">Sat 28 Nov 2016</p>
+                                    <p class="place-about">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="buy js__buy">Buy Tickets</button>
+                                </div>
+                            </div>
+
+                            <div class="place">
+                                <img src="./img/san.jpeg" alt="" class="place-img">
+                                <div class="place-body">
+                                    <h3 class="place-heading">San Francisco</h3>
+                                    <p class="time">Sun 29 Nov 2016</p>
+                                    <p class="place-about">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <button class="buy js__buy">Buy Tickets</button>
+                                </div>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                       
+                    </div>
+                    
+                </section>
+
+                <!-- CONTACT -->
+                <section class="full-content" id="contact">
+                    <h3 class="heading">CONTACT</h3>
+                    <p class="sub-heading ">Fan? Drop a note!</p>
+
+                    <div class="full-contact">
+                        <div class="right six">
+                            <form action="">
+                                <div class="Seven">
+                                    <div class="eyy">
+                                        <input class="Three" type="text" placeholder="Name" required>
+                                    </div>
+                                    <div class="eyy">
+                                        <input class="Three" type="email" placeholder="Email" required>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div> <textarea type="text" placeholder="Messages"></textarea> </div>
+                                <input class="Four" type="number" placeholder="Number Phone">
+                                <input class="Five" type="submit" value="SEND">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <ul class="list_contacts" >
+                        <li><a href="#"><img src="./img/facebook.png" alt="facebook"> <span class="face">Facebook</span></a></li>
+                        <li><a href="#"><img src="./img/instagram.png" alt="instagram"> <span class="instagram">Instagram</span> </a></li>
+                        <li><a href="#"><img src="./img/twitter.png" alt="twitter"> <span class="twitter">Twitter</span> </a></li>
+                    </ul>
+                    <div class="picture">
+                        <div class="imgMap">
+                            <img src="./img/map.png">
+                        </div>
+                        <div class="ptrText">
+                            <div class="location">
+                                <img src="./img/location-pin.png">
+                                <p>Can Duoc, Long An, Viet Nam </p>
+                            </div>
+                            <div class="phone">
+                                <img src="./img/phone-call.png" >
+                                <p>01212451240</p>
+                            </div>
+                            <div class="email">
+                                <img src="./img/email.png">
+                                <p>tienhuynh@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- MAP -->
+                <section class="map">
+                    <div class="layout">
+                        <div class="layout_item">
+                            <span class="color"></span>
+                        </div>
+    
+                        <div class="layout_item">
+                            <span class="color"></span>
+                        </div>
+    
+                        <div class="layout_item">
+                            <span class="color"></span>
+                        </div>
+    
+                        <div class="layout_item">
+                            <span class="color"></span>
+                        </div>
+    
+                        <div class="layout_item">
+                            <span class="color"></span>
+                        </div>
+    
+                        <div class="layout_item">
+                            <span class="color"></span>
+                        </div>
+
+                    </div>
+                </section>
+        </div>
+
+        <!-- FOOTER -->
+    
+    <div class="modal">
+        <div class="modal__container">
+            <div class="close js__close"> 
+                <ion-icon name="close-circle-outline"></ion-icon>
+            </div>
+            <header class="modal__header">
+                <ion-icon name="bag-handle-outline"></ion-icon>
+                Tickets
+            </header>
+            <div class="modal__body">
+                <form action="">
+
+                    <label for="modal__1" class="modal__label" required>
+                        <i class="ti-shopping-cart"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input id="modal__1" class="modal__input" type="text" placeholder="How many" required>
+    
+                    <label for="modal__2" class="modal__label" required>
+                        <i class="ti-user"></i>
+                        Send To
+                    </label>
+                    <input id="modal__2" class="modal__input" type="email" placeholder="Enter Email" required>
+                    <button class="modal__button">Pay <i class="ti-check"></i></button>
+                </form>
+            </div>
+            <footer class="modal__help">
+                <p>need <a href="#">help?</a> </p>
+            </footer>
+    
+        </div>
+    </div>
+
+    <script>
+            //đóng mở
+        var header = document.getElementById('header')
+        var menu = document.getElementById('menu')
+        var headerHeight = header.clientHeight
+        menu.onclick = function() {
+            var close = header.clientHeight === headerHeight ;
+            if (close){
+                header.style.height ='auto'
+            }else{
+                header.style.height = null
+            }
+        }
+        //tự động
+        var menuItems = document.querySelectorAll('#header .nav >li> a[href*="#"]');
+        
+        for (var i=0;i<menuItems.length;i++){
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (!isParentMenu){
+                    header.style.height = null;
+                }else{
+                    event.preventDefault()
+                }
+            }
+        }
+
+    </script>
+    <script>
+        const buyBtns = document.querySelectorAll('.js__buy')
+        const modal = document.querySelector('.modal')
+        const btnClose = document.querySelector('.js__close')
+
+        function open() {
+            modal.classList.add('open')
+        }
+
+        for (const buyBtn of buyBtns){
+           buyBtn.addEventListener('click',open)
+        }
+
+        function closes() {
+            modal.classList.remove('open')
+        }
+
+        btnClose.addEventListener('click',closes)
+    </script>
+    <!-- -------Icon------- -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 4){
+                counter = 1;
+            }
+        },3000);
+        </script>
+
+</body>
+</html>
